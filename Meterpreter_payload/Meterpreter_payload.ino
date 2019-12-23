@@ -23,7 +23,7 @@ void loop()
  DigiKeyboard.print("start Sys32Data.bat");
  DigiKeyboard.sendKeyStroke(KEY_ENTER);
  DigiKeyboard.delay(d);
- DigiKeyboard.sendKeyStroke(KEY_F4|MOD_ALT_LEFT);
- DigiKeyboard.delay(50000);
+ DigiKeyboard.print("exit");
+ DigiKeyboard.sendKeyStroke(KEY_ENTER);
  for(;;){}
 }
